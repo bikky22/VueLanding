@@ -13,7 +13,7 @@ export default new Router({
             component: Landing
         },
         {
-            path: '/background/:purl',
+            path: '/background/',
             name: 'background',
             component: BackGround
         },

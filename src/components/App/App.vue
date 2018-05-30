@@ -1,12 +1,10 @@
 <template>
   <div id="app">
-    <img src="../../assets/logo.png">
-    <Landing msg="Kiran Kumar Roy"/>
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/background">background</router-link>
+      <router-link to="/">Landing</router-link>
+      <router-link to="/background">Background</router-link>
     </nav>
-     <router-view />
+    <router-view />
   </div>
 </template>
 
