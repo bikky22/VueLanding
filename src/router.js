@@ -9,12 +9,12 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'Landing',
+            name: 'landing',
             component: Landing
         },
         {
-            path: '/background/:name',
-            name: 'BackGround',
+            path: '/background/:purl',
+            name: 'background',
             component: BackGround
         },
     ]

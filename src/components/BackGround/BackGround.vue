@@ -1,25 +1,23 @@
 <template>
-  <div class="BackGround">
-      <h1>Hello {{ their_name }}, this is my Background page</h1>
+  <div class="background">
+      <h1>Hello {{ purl }}, this is my Background page</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali...</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'BackGround',
+  name: 'Landing',
   data() {
     return {
-      their_name: this.$route.params.name
+      purl: this.$route.params.name
     }
   }
 }
 </script>
 
 <style scoped>
-  .BackG {
+  .background {
     background-color: greenyellow;
-    width:100%;
-    height: 30px;
   }
 </style>

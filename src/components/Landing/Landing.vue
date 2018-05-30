@@ -1,5 +1,5 @@
 <template>
-  <div class="Landing">
+  <div class="landing">
     <h1>{{ msg }}</h1>
     <h1 v-once>{{name}}</h1>
     My friends call me "KK", my mother calls me "Bikky" I belong to a Bengali family. I was born in Jammu and brought up in Northen region of India. I am Computer Science Engineer and i love building things. I enjoy learning multiple languages (Programming , Foreign and language of string i.e. Guitar).
