@@ -17,5 +17,17 @@ export default new Router({
             name: 'background',
             component: BackGround
         },
+        {
+            path: '/reactapp/',
+            beforeEnter() {
+                window.location = "https://www.bikky.space/reactme/"
+            }
+        },
+        {
+            path: '/owcsx/',
+            beforeEnter() {
+                window.location = "http://www.owcsx.science/"
+            }
+        }
     ]
 })
