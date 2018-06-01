@@ -1,6 +1,6 @@
 <template>
   <div class="background">
-      <p>Nice background</p>
+      <p>History repeats but science reverberates</p>
   </div>
 </template>
 
