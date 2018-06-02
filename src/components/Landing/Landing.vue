@@ -13,6 +13,9 @@
       <p v-if="skills.length >= 5">You are good to go</p>
       <p v-else>Danger zone</p>
     </div>
+    <div>
+      <p>Now Using Vue.js</p>
+    </div>
 
   </div>
 </template>
