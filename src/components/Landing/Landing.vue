@@ -1,9 +1,9 @@
 <template>
   <div class='landing'>
-    {{msg}}
+    {{msg}}<br>
 
     <button v-on:click="ChangeName" v-bind:disabled="btnState">bolean</button>
-    {{ btnState ? 'The button is disabled' : 'the button is active'}}
+    {{ btnState ? 'The button is disabled, Check About me section for complete portfolio' : 'the button is active'}}
 
     <div class="holder">
       <ul>
