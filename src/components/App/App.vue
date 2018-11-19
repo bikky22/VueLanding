@@ -4,7 +4,6 @@
       <router-link to="/">Landing</router-link> | 
       <router-link to="/background">Background</router-link> | 
       <router-link to="/reactapp">About Me</router-link> | 
-      <router-link to="/owcsx">OWCSX</router-link> | 
     </nav>
     <router-view />
   </div>
